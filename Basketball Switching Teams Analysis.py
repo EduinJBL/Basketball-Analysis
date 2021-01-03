@@ -196,10 +196,6 @@ fig.update_layout(
     width=500,
     height=500,)
 
-# fig2=go.Figure()
-# fig2.add_trace(go.Scatter(x=x,y=y,mode='markers',marker=dict(color=cl)))
-# fig2.add_trace(
-
 app = dash.Dash(__name__)
 
 
